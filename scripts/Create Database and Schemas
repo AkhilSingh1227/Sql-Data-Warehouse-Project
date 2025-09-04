@@ -1,0 +1,16 @@
+=============================================================
+Create Database and Schemas
+=============================================================
+
+USE master;
+Go
+//-- Create Database---
+Create Database DataWarehouse;
+Go
+use DataWarehouse;
+Go
+Create Schema bronze;
+Go
+Create Schema silver;
+Go
+Create Schema gold;

@@ -1,0 +1,51 @@
+================================================
+Loading Silver Layer
+================================================
+------------------------------------------------
+Loading CRM Tables
+------------------------------------------------
+>> Truncating Table: silver.crm_cust_info
+>> Inserting Data Into: silver.crm_cust_info
+
+(18484 rows affected)
+>> Load Duration: 143 seconds
+>> -------------
+>> Truncating Table: silver.crm_prd_info
+>> Inserting Data Into: silver.crm_prd_info
+
+(397 rows affected)
+>> Load Duration: 0 seconds
+>> -------------
+>> Truncating Table: silver.crm_sales_details
+>> Inserting Data Into: silver.crm_sales_details
+
+(60398 rows affected)
+>> Load Duration: 0 seconds
+>> -------------
+>> Truncating Table: silver.erp_cust_az12
+>> Inserting Data Into: silver.erp_cust_az12
+
+(18483 rows affected)
+>> Load Duration: 1 seconds
+>> -------------
+------------------------------------------------
+Loading ERP Tables
+------------------------------------------------
+>> Truncating Table: silver.erp_loc_a101
+>> Inserting Data Into: silver.erp_loc_a101
+
+(18484 rows affected)
+>> Load Duration: 0 seconds
+>> -------------
+>> Truncating Table: silver.erp_px_cat_g1v2
+>> Inserting Data Into: silver.erp_px_cat_g1v2
+
+(37 rows affected)
+>> Load Duration: 0 seconds
+>> -------------
+==========================================
+Loading Silver Layer is Completed
+   - Total Load Duration: 144 seconds
+==========================================
+
+Completion time: 2025-09-08T02:56:21.4806786+05:30

@@ -1,12 +1,16 @@
 # Data Catalog for Gold Layer
 
 ## Overview
-The Gold Layer is the business-level data representation, structured to support analytical and reporting use cases. It consists of **dimension tables** and **fact tables** for specific business metrics.
+📘 Gold Layer Data Catalog – Summary
+
+The Gold Layer is the final stage of our data warehouse, where business-level data is organised in a way that’s ready for analysis and reporting. It includes dimension tables and fact tables that capture key business metrics.
+
 
 ---
 
-### 1. **gold.dim_customers**
-- **Purpose:** Stores customer details enriched with demographic and geographic data.
+### 🧍‍♂️ 1. **gold.dim_customers**
+**Purpose:**
+This table keeps detailed customer information, enriched with demographic and location-based data.
 - **Columns:**
 
 | Column Name      | Data Type     | Description                                                                                   |
@@ -24,8 +28,9 @@ The Gold Layer is the business-level data representation, structured to support 
 
 ---
 
-### 2. **gold.dim_products**
-- **Purpose:** Provides information about the products and their attributes.
+### 📦 2. **gold.dim_products**
+- **Purpose:** This table provides all the necessary details about products and their classifications.
+
 - **Columns:**
 
 | Column Name         | Data Type     | Description                                                                                   |
@@ -44,8 +49,8 @@ The Gold Layer is the business-level data representation, structured to support 
 
 ---
 
-### 3. **gold.fact_sales**
-- **Purpose:** Stores transactional sales data for analytical purposes.
+### 💰 3. **gold.fact_sales**
+- **Purpose:** This table captures all sales transactions for analysis.
 - **Columns:**
 
 | Column Name     | Data Type     | Description                                                                                   |

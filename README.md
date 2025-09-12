@@ -12,15 +12,17 @@ This project demonstrates the creation of a modern data warehouse using SQL Serv
 ## 🛠️ Technologies Used
 
 - Microsoft SQL Server
-- T-SQL
-- SSIS (if applicable)
 - SQL Server Management Studio (SSMS)
 
 ## 📦 Features
 
-- Data ingestion from multiple sources
-- Fact and dimension table modeling
+- Data ingestion from CSV files
+- Fact and dimension table modeling (star Schema)
 - Performance-optimized queries
-- Sample dashboards or reports (if available)
 
-## 📁 Project Structure
+## 📁 Data Architecture
+
+The data architecture for this project follows three-tiered architecture containing Bronze, Silver, and Gold layers:
+
+<img width="1544" height="778" alt="data_architecture" src="https://github.com/user-attachments/assets/5cf1f6ca-9652-4794-8608-4bca774adc4b" />
+
